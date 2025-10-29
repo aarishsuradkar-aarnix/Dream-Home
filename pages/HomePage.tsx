@@ -1,10 +1,9 @@
-
 import React, { useState, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { MOCK_PROPERTIES } from '../constants';
 import PropertyCard from '../components/PropertyCard';
 import LoadingSpinner from '../components/LoadingSpinner';
 import { useProperties } from '../hooks/useProperties';
+
 import type { Property } from '../types';
 import BuySellRentSection from '../components/BuySellRentSection';
 

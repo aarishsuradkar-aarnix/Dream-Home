@@ -1,0 +1,345 @@
+{
+  "properties": [
+    {
+      "id": "buy-1",
+      "title": "Palm Grove Villa",
+      "price": 32000000,
+      "location": {
+        "address": "Bandra, Mumbai",
+        "city": "Mumbai",
+        "lat": 19.0596,
+        "lng": 72.8406
+      },
+      "type": "Villa",
+      "status": "For Sale",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 3500,
+      "description": "A luxurious 4BHK villa surrounded by palm trees and a private pool.",
+      "amenities": ["Private Pool", "Garden", "Parking", "24/7 Security"],
+      "images": [
+        "https://picsum.photos/seed/buy1/800/600",
+        "https://picsum.photos/seed/buy1a/800/600",
+        "https://picsum.photos/seed/buy1b/800/600"
+      ],
+      "agent": {
+        "name": "Jane Doe",
+        "avatar": "https://i.pravatar.cc/150?u=jane"
+      },
+      "featured": true,
+      "approved": true,
+      "createdAt": "2023-11-01T10:00:00Z",
+      "image_prompt": "modern tropical villa with palm trees, private pool, sunny weather, luxury Indian architecture, realistic lighting"
+    },
+    {
+      "id": "buy-2",
+      "title": "Skyline Heights",
+      "price": 16000000,
+      "location": {
+        "address": "Powai, Mumbai",
+        "city": "Mumbai",
+        "lat": 19.1176,
+        "lng": 72.906
+      },
+      "type": "Apartment",
+      "status": "For Sale",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 1800,
+      "description": "Contemporary 3BHK apartment with panoramic city views and glass balconies.",
+      "amenities": ["City View", "Balcony", "Gym", "Pool"],
+      "images": [
+        "https://picsum.photos/seed/buy2/800/600",
+        "https://picsum.photos/seed/buy2a/800/600",
+        "https://picsum.photos/seed/buy2b/800/600"
+      ],
+      "agent": {
+        "name": "John Smith",
+        "avatar": "https://i.pravatar.cc/150?u=john"
+      },
+      "featured": true,
+      "approved": true,
+      "createdAt": "2023-11-02T11:30:00Z",
+      "image_prompt": "high-rise glass apartment with skyline view, sunset light, modern urban design"
+    },
+    {
+      "id": "buy-3",
+      "title": "Silver Maple Residency",
+      "price": 9500000,
+      "location": {
+        "address": "Whitefield, Bengaluru",
+        "city": "Bengaluru",
+        "lat": 12.9698,
+        "lng": 77.75
+      },
+      "type": "Apartment",
+      "status": "For Sale",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1400,
+      "description": "Spacious 2BHK with smart home features and landscaped gardens.",
+      "amenities": ["Smart Home", "Landscaped Garden", "Clubhouse", "Security"],
+      "images": [
+        "https://picsum.photos/seed/buy3/800/600",
+        "https://picsum.photos/seed/buy3a/800/600",
+        "https://picsum.photos/seed/buy3b/800/600"
+      ],
+      "agent": {
+        "name": "Emily White",
+        "avatar": "https://i.pravatar.cc/150?u=emily"
+      },
+      "featured": true,
+      "approved": true,
+      "createdAt": "2023-11-03T09:00:00Z",
+      "image_prompt": "modern apartment building with green landscaping, smart home interiors, bright daylight"
+    },
+    {
+      "id": "buy-4",
+      "title": "The Serenity Estate",
+      "price": 25000000,
+      "location": {
+        "address": "Koregaon Park, Pune",
+        "city": "Pune",
+        "lat": 18.5362,
+        "lng": 73.8939
+      },
+      "type": "House",
+      "status": "For Sale",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 3000,
+      "description": "Luxury bungalow with a minimalist interior and garden-facing balcony.",
+      "amenities": ["Garden", "Balcony", "Minimalist Design", "Parking"],
+      "images": [
+        "https://picsum.photos/seed/buy4/800/600",
+        "https://picsum.photos/seed/buy4a/800/600",
+        "https://picsum.photos/seed/buy4b/800/600"
+      ],
+      "agent": {
+        "name": "Jane Doe",
+        "avatar": "https://i.pravatar.cc/150?u=jane"
+      },
+      "featured": false,
+      "approved": true,
+      "createdAt": "2023-11-04T14:00:00Z",
+      "image_prompt": "modern Indian bungalow with green garden, minimalist architecture, evening sunlight"
+    },
+    {
+      "id": "buy-5",
+      "title": "Lakeview Towers",
+      "price": 12000000,
+      "location": {
+        "address": "Thane, Mumbai",
+        "city": "Thane",
+        "lat": 19.2183,
+        "lng": 72.9781
+      },
+      "type": "Apartment",
+      "status": "For Sale",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1600,
+      "description": "3BHK apartment offering serene lake views and a rooftop gym.",
+      "amenities": ["Lake View", "Rooftop Gym", "Pool", "Security"],
+      "images": [
+        "https://picsum.photos/seed/buy5/800/600",
+        "https://picsum.photos/seed/buy5a/800/600",
+        "https://picsum.photos/seed/buy5b/800/600"
+      ],
+      "agent": {
+        "name": "John Smith",
+        "avatar": "https://i.pravatar.cc/150?u=john"
+      },
+      "featured": false,
+      "approved": true,
+      "createdAt": "2023-11-05T16:45:00Z",
+      "image_prompt": "lake-facing apartment building, calm water reflection, rooftop terrace, blue sky"
+    },
+    {
+      "id": "buy-6",
+      "title": "Urban Edge Residences",
+      "price": 19000000,
+      "location": {
+        "address": "Gurugram, Haryana",
+        "city": "Gurugram",
+        "lat": 28.4595,
+        "lng": 77.0266
+      },
+      "type": "Apartment",
+      "status": "For Sale",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 2100,
+      "description": "Modern urban apartments with rooftop gardens and coworking spaces.",
+      "amenities": ["Rooftop Garden", "Coworking Space", "Gym", "City View"],
+      "images": [
+        "https://picsum.photos/seed/buy6/800/600",
+        "https://picsum.photos/seed/buy6a/800/600",
+        "https://picsum.photos/seed/buy6b/800/600"
+      ],
+      "agent": {
+        "name": "Emily White",
+        "avatar": "https://i.pravatar.cc/150?u=emily"
+      },
+      "featured": true,
+      "approved": true,
+      "createdAt": "2023-11-06T12:00:00Z",
+      "image_prompt": "modern urban residential building, rooftop garden, coworking lounge, city background"
+    },
+    {
+      "id": "rent-1",
+      "title": "Blue Horizon Apartments",
+      "price": 60000,
+      "location": {
+        "address": "Versova, Mumbai",
+        "city": "Mumbai",
+        "lat": 19.1332,
+        "lng": 72.8157
+      },
+      "type": "Apartment",
+      "status": "For Rent",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1100,
+      "description": "Fully furnished 2BHK apartment with sea view and modern interiors.",
+      "amenities": ["Furnished", "Sea View", "Balcony", "Security"],
+      "images": [
+        "https://picsum.photos/seed/rent1/800/600",
+        "https://picsum.photos/seed/rent1a/800/600",
+        "https://picsum.photos/seed/rent1b/800/600"
+      ],
+      "agent": {
+        "name": "John Smith",
+        "avatar": "https://i.pravatar.cc/150?u=john"
+      },
+      "featured": true,
+      "approved": true,
+      "createdAt": "2023-11-11T09:45:00Z",
+      "image_prompt": "sea-facing apartment with balcony, modern furniture, soft sunlight"
+    },
+    {
+      "id": "rent-2",
+      "title": "UrbanNest Studios",
+      "price": 28000,
+      "location": {
+        "address": "Koramangala, Bengaluru",
+        "city": "Bengaluru",
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "type": "Apartment",
+      "status": "For Rent",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 600,
+      "description": "Compact and stylish studio apartments ideal for young professionals.",
+      "amenities": ["Studio", "Modern Interior", "Wi-Fi", "Parking"],
+      "images": [
+        "https://picsum.photos/seed/rent2/800/600",
+        "https://picsum.photos/seed/rent2a/800/600",
+        "https://picsum.photos/seed/rent2b/800/600"
+      ],
+      "agent": {
+        "name": "Emily White",
+        "avatar": "https://i.pravatar.cc/150?u=emily"
+      },
+      "featured": false,
+      "approved": true,
+      "createdAt": "2023-11-12T18:00:00Z",
+      "image_prompt": "compact modern studio apartment, cozy interiors, bright and minimal design"
+    },
+    {
+      "id": "rent-3",
+      "title": "Parkside Haven",
+      "price": 35000,
+      "location": {
+        "address": "Noida Sector 62, Delhi NCR",
+        "city": "Noida",
+        "lat": 28.6196,
+        "lng": 77.3823
+      },
+      "type": "Apartment",
+      "status": "For Rent",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1500,
+      "description": "Spacious 3BHK apartment overlooking a lush community park.",
+      "amenities": ["Park View", "Spacious", "Security", "Playground"],
+      "images": [
+        "https://picsum.photos/seed/rent3/800/600",
+        "https://picsum.photos/seed/rent3a/800/600",
+        "https://picsum.photos/seed/rent3b/800/600"
+      ],
+      "agent": {
+        "name": "Jane Doe",
+        "avatar": "https://i.pravatar.cc/150?u=jane"
+      },
+      "featured": true,
+      "approved": true,
+      "createdAt": "2023-11-13T12:15:00Z",
+      "image_prompt": "modern apartment with green park view, glass windows, families walking outside"
+    },
+    {
+      "id": "rent-4",
+      "title": "Cityscape Residences",
+      "price": 25000,
+      "location": {
+        "address": "Hinjewadi, Pune",
+        "city": "Pune",
+        "lat": 18.5912,
+        "lng": 73.7389
+      },
+      "type": "Apartment",
+      "status": "For Rent",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1000,
+      "description": "Affordable 2BHK near tech parks with great connectivity and security.",
+      "amenities": ["Near Tech Park", "Security", "Parking", "Gym"],
+      "images": [
+        "https://picsum.photos/seed/rent4/800/600",
+        "https://picsum.photos/seed/rent4a/800/600",
+        "https://picsum.photos/seed/rent4b/800/600"
+      ],
+      "agent": {
+        "name": "John Smith",
+        "avatar": "https://i.pravatar.cc/150?u=john"
+      },
+      "featured": false,
+      "approved": true,
+      "createdAt": "2023-11-14T16:00:00Z",
+      "image_prompt": "urban apartment near tech park, evening light, gated community"
+    },
+    {
+      "id": "rent-5",
+      "title": "Sunrise Apartments",
+      "price": 32000,
+      "location": {
+        "address": "Gachibowli, Hyderabad",
+        "city": "Hyderabad",
+        "lat": 17.4401,
+        "lng": 78.3489
+      },
+      "type": "Apartment",
+      "status": "For Rent",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1200,
+      "description": "Pet-friendly apartment complex with gym and pool access.",
+      "amenities": ["Pet-Friendly", "Gym", "Pool", "Clubhouse"],
+      "images": [
+        "https://picsum.photos/seed/rent5/800/600",
+        "https://picsum.photos/seed/rent5a/800/600",
+        "https://picsum.photos/seed/rent5b/800/600"
+      ],
+      "agent": {
+        "name": "Emily White",
+        "avatar": "https://i.pravatar.cc/150?u=emily"
+      },
+      "featured": false,
+      "approved": true,
+      "createdAt": "2023-11-15T10:00:00Z",
+      "image_prompt": "modern apartment with swimming pool, pet-friendly environment, morning light"
+    }
+  ]
+}

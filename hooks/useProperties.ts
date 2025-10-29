@@ -1,7 +1,8 @@
 
 import { useState, useEffect } from 'react';
-import { MOCK_PROPERTIES } from '../constants';
 import type { Property } from '../types';
+
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? '/api';
 
 export const useProperties = () => {
   const [properties, setProperties] = useState<Property[]>([]);
@@ -9,12 +10,16 @@ export const useProperties = () => {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-    const fetchProperties = () => {
+    const fetchProperties = async () => {
       try {
-        setTimeout(() => {
-          setProperties(MOCK_PROPERTIES.filter(p => p.approved));
-          setLoading(false);
-        }, 500);
+        setLoading(true);
+        const response = await fetch(`${API_BASE}/properties`);
+        if (!response.ok) {
+          throw new Error('Failed to load properties');
+        }
+        const data: Property[] = await response.json();
+        setProperties(data.filter(p => p.approved));
+        setLoading(false);
       } catch (err) {
         setError(err instanceof Error ? err : new Error('An unknown error occurred'));
         setLoading(false);
@@ -33,21 +38,25 @@ export const useProperty = (id?: string) => {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-    const fetchProperty = () => {
+    const fetchProperty = async () => {
       if (!id) {
         setLoading(false);
         return;
       }
       try {
-        setTimeout(() => {
-          const foundProperty = MOCK_PROPERTIES.find(p => p.id === id);
-          if (foundProperty) {
-            setProperty(foundProperty);
-          } else {
-            setError(new Error('Property not found'));
-          }
+        setLoading(true);
+        const response = await fetch(`${API_BASE}/properties/${id}`);
+        if (response.status === 404) {
+          setError(new Error('Property not found'));
           setLoading(false);
-        }, 500);
+          return;
+        }
+        if (!response.ok) {
+          throw new Error('Failed to load property');
+        }
+        const data: Property = await response.json();
+        setProperty(data);
+        setLoading(false);
       } catch (err) {
         setError(err instanceof Error ? err : new Error('An unknown error occurred'));
         setLoading(false);

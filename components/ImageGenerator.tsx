@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GoogleGenAI } from '@google/genai';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import ImageGenerationSpinner from './ImageGenerationSpinner';
 import { SparklesIcon } from './IconComponents';
 
@@ -21,7 +21,7 @@ const ImageGenerator: React.FC = () => {
     setGeneratedImage(null);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+      const ai = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
       const response = await ai.models.generateImages({
         model: 'imagen-4.0-generate-001',
         prompt: prompt,
